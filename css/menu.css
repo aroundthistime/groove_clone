@@ -29,7 +29,7 @@ main .menu{
 }
 
 .menu__search input{
-    background-color: #D7DBDD;
+    background-color: red;
     border : none;
 }
 
@@ -77,7 +77,7 @@ main .menu{
 }
 
 .menu__tabs .menu__playlist-list{
-    height : 260px;
+    height : 300px;
     overflow-y : auto;
 }
 
