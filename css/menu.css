@@ -29,7 +29,8 @@ main .menu{
 }
 
 .menu__search input{
-    background-color: red;
+    width : 85%;
+    background-color: #D7DBDD;
     border : none;
 }
 
