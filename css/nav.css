@@ -18,7 +18,7 @@ nav .nav__album img{
 
 nav .nav__playbar{
     display: flex;
-    width : 94%;
+    width : 100%;
     padding : 5px 15px 10px 10px;
     justify-content: space-between;
     align-items: center;
