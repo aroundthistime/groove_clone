@@ -1,0 +1,56 @@
+.song__list{
+    display : flex;
+    flex-direction: column;
+    margin-top : 10px;
+    margin-bottom : 8px;
+    overflow-y: auto;
+    height : 402px;
+}
+
+.song__list .song{
+    padding : 15px 15px 15px 25px;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+}
+
+.song__list .song:hover{
+    background-color : #F2F2F2;
+}
+
+.song__list .song>div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size : 12.5px;
+}
+
+.song .song__title{
+    width : 230px;
+    position: relative;
+}
+
+.song__title .song__badge{
+    position : absolute;
+    color : white;
+}
+
+.song__title .song__badge--play{
+    right : -10px;
+}
+
+.song__title .song__badge--add{
+    right : -40px;
+}
+
+.song .song__artist,
+.song .song__genre,
+.song .song__time{
+    opacity : 0.8;
+}
+
+.song .song__artist,
+.song .song__genre{
+    width : 110px;
+}

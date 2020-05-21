@@ -1,0 +1,14 @@
+.menu__playlist-list{
+    -ms-overflow-style: none;
+}
+.menu__playlist-list::-webkit-scrollbar{
+    display : none;
+}
+
+.song__list{
+    -ms-overflow-style: none;
+}
+
+.song__list::-webkit-scrollbar{
+    display : none;
+}

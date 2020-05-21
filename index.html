@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Groove</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://kit.fontawesome.com/3d92170940.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <main>
+        <div class="main__column menu">
+            <div class="menu__row">
+                <div class="menu__least-btn">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <div class="menu__search">
+                    <input type="text" placeholder="검색">
+                    <i class="fas fa-search"></i>
+                </div>
+                <ul class="menu__tabs">
+                    <li class="menu__tab">
+                        <div class="selected-badge"></div>
+                        <i class="fas fa-music"></i>
+                        <span>내 음악</span>
+                    </li>
+                    <li class="menu__tab">
+                        <i class="far fa-clock"></i>
+                        <span>최근 재생 항목</span>
+                    </li>
+                    <li class="menu__tab">
+                        <i class="fas fa-headphones-alt"></i>
+                        <span>지금 재생 중</span>
+                    </li>
+                    <li class="menu__tab menu__playlist">
+                        <div class="menu__playlist__column">
+                            <i class="fas fa-list-ul"></i>
+                            <span>재생 목록</span>
+                        </div>
+                        <div class="menu__playlist__column">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </li>
+                    <div class="menu__playlist-list">
+                        <div class="menu__tab">
+                            <i class="fas fa-compact-disc"></i>
+                            플레이리스트 1
+                        </div>
+                        <div class="menu__tab">
+                            <i class="fas fa-compact-disc"></i>
+                            플레이리스트 2
+                        </div>
+                        <div class="menu__tab">
+                            <i class="fas fa-compact-disc"></i>
+                            플레이리스트 3
+                        </div>
+                        <div class="menu__tab">
+                            <i class="fas fa-compact-disc"></i>
+                            플레이리스트 4
+                        </div>
+                        <div class="menu__tab">
+                            <i class="fas fa-compact-disc"></i>
+                            플레이리스트 5
+                        </div>
+                        <div class="menu__tab">
+                            <i class="fas fa-compact-disc"></i>
+                            플레이리스트 6
+                        </div>
+                        <div class="menu__tab">
+                            <i class="fas fa-compact-disc"></i>
+                            플레이리스트 7
+                        </div>
+                        <div class="menu__tab">
+                            <i class="fas fa-compact-disc"></i>
+                            플레이리스트 8
+                        </div>
+                        <div class="menu__tab">
+                            <i class="fas fa-compact-disc"></i>
+                            플레이리스트 9
+                        </div>
+                        <div class="menu__tab">
+                            <i class="fas fa-compact-disc"></i>
+                            플레이리스트 10
+                        </div>
+                    </div>
+                </ul>
+            </div>
+            <div class="menu__row">
+                <div class="menu__tab menu__settings">
+                    <i class="fas fa-cog"></i>
+                    <span>설정</span>
+                </div>
+            </div>
+        </div>
+        <div class="main__column main__content">
+            <h1 class="tab--header">
+                내 음악
+            </h1>
+            <ul class="list-categories">
+                <li class="list-category category--on">
+                    <span>노래</span>
+                </li>
+                <li class="list-category category--off">
+                    <span>아티스트</span>
+                </li>
+                <li class="list-category category--off">
+                    <span>앨범</span>
+                </li>
+            </ul>
+            <div class="list-infos">
+                <div class="list-info">
+                    <span class="info__title">정렬기준:</span>
+                    <span class="info__content">추가된 날짜</span>
+                </div>
+                <div class="list-info">
+                    <span class="info__title">장르:</span>
+                    <span class="info__content">모든 장르</span>
+                </div>
+            </div>
+            <div class="list-infos info__help">
+                <div class="info__help__column">
+                    <div class="info__help__icon">
+                        <i class="far fa-folder"></i>
+                    </div>
+                    <div>
+                        <span class="info__title">항목을 찾지 못했나요?</span>
+                        <span class="info__content">음악을 검색할 위치 표시</span>
+                    </div>
+                </div>
+                <div class="info__help__column">
+                    <i class="fas fa-times"></i>
+                </div>
+            </div>
+            <div class="song__list">
+                <div class="song">
+                    <div class="song__column song__title">
+                        <span>시간의 바깥</span>
+                        <div class="song__badge song__badge--play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="song__badge song__badge--add">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="song__column song__artist">아이유 (IU)</div>
+                    <div class="song__column song__genre">발라드(국내)</div>
+                    <div class="song__column song__time">05:15</div>
+                </div>
+                <div class="song">
+                    <div class="song__column song__title">
+                        <span>민들레</span>
+                        <div class="song__badge song__badge--play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="song__badge song__badge--add">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="song__column song__artist">볼빨간사춘기</div>
+                    <div class="song__column song__genre">록/포크(국내)</div>
+                    <div class="song__column song__time">04:03</div>
+                </div>
+                <div class="song">
+                    <div class="song__column song__title">
+                        <span>나비와 고양이</span>
+                        <div class="song__badge song__badge--play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="song__badge song__badge--add">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="song__column song__artist">볼빨간사춘기</div>
+                    <div class="song__column song__genre">록/포크(국내)</div>
+                    <div class="song__column song__time">03:23</div>
+                </div>
+                <div class="song">
+                    <div class="song__column song__title">
+                        <span>갈 수가 없어</span>
+                        <div class="song__badge song__badge--play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="song__badge song__badge--add">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="song__column song__artist">벤</div>
+                    <div class="song__column song__genre">OST</div>
+                    <div class="song__column song__time">03:35</div>
+                </div>
+                <div class="song">
+                    <div class="song__column song__title">
+                        <span>마음을 드려요</span>
+                        <div class="song__badge song__badge--play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="song__badge song__badge--add">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="song__column song__artist">아이유 (IU)</div>
+                    <div class="song__column song__genre">OST</div>
+                    <div class="song__column song__time">04:40</div>
+                </div>
+                <div class="song">
+                    <div class="song__column song__title">
+                        <span>Liability</span>
+                        <div class="song__badge song__badge--play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="song__badge song__badge--add">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="song__column song__artist">Lorde</div>
+                    <div class="song__column song__genre">POP</div>
+                    <div class="song__column song__time">02:51</div>
+                </div>
+                <div class="song">
+                    <div class="song__column song__title">
+                        <span>흔들리는 꽃들 속에서 네 샴푸향이 느껴..</span>
+                        <div class="song__badge song__badge--play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="song__badge song__badge--add">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="song__column song__artist">장범준</div>
+                    <div class="song__column song__genre">OST</div>
+                    <div class="song__column song__time">02:41</div>
+                </div>
+                <div class="song">
+                    <div class="song__column song__title">
+                        <span>Zero</span>
+                        <div class="song__badge song__badge--play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="song__badge song__badge--add">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="song__column song__artist">백예린</div>
+                    <div class="song__column song__genre">R&B</div>
+                    <div class="song__column song__time">03:28</div>
+                </div>
+                <div class="song">
+                    <div class="song__column song__title">
+                        <span>Seattle Alone</span>
+                        <div class="song__badge song__badge--play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="song__badge song__badge--add">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="song__column song__artist">볼빨간 사춘기</div>
+                    <div class="song__column song__genre">록/포크(국내)</div>
+                    <div class="song__column song__time">03:34</div>
+                </div>
+                <div class="song">
+                    <div class="song__column song__title">
+                        <span>1:03</span>
+                        <div class="song__badge song__badge--play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="song__badge song__badge--add">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="song__column song__artist">넬 (NELL)</div>
+                    <div class="song__column song__genre">가요</div>
+                    <div class="song__column song__time">04:19</div>
+                </div>
+                <div class="song">
+                    <div class="song__column song__title">
+                        <span>밤편지</span>
+                        <div class="song__badge song__badge--play">
+                            <i class="fas fa-play"></i>
+                        </div>
+                        <div class="song__badge song__badge--add">
+                            <i class="fas fa-plus"></i>
+                        </div>
+                    </div>
+                    <div class="song__column song__artist">아이유 (IU)</div>
+                    <div class="song__column song__genre">발라드(국내)</div>
+                    <div class="song__column song__time">04:13</div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <nav>
+        <div class="nav__album">
+            <img src="images/album/시간의바깥.jpg" class="song-album">
+        </div>
+        <div class="nav__playbar">
+            <div class="playbar__song">
+                <span class="playbar__title">
+                    시간의 바깥
+                </span>
+                <span class="playbar__artist">
+                    아이유 (IU)
+                </span>
+            </div>
+            <div class="playbar__center">
+                <div class="playbar-btns">
+                    <div class="playbar-btn">
+                        <i class="fas fa-random"></i>
+                    </div>
+                    <div class="playbar-btn">
+                        <i class="fas fa-step-backward"></i>
+                    </div>
+                    <div class="playbar-btn playbar__btn--lg">
+                        <i class="fas fa-play"></i>
+                    </div>
+                    <div class="playbar-btn">
+                        <i class="fas fa-step-forward"></i>
+                    </div>
+                    <div class="playbar-btn">
+                        <i class="fas fa-redo"></i>
+                    </div>
+                </div>
+                <div class="playbar--playing-progress">
+                    <span class="current">0:00</span>
+                    <div class="bar-badge">
+                        <i class="far fa-circle"></i>
+                    </div>
+                    <hr width = "300px" size ="5" color="#3b73bb">
+                    <span class="end">05:15</span>
+                </div>
+            </div>
+            <div class="playbar__volume">
+                <div class="playbar-btn">
+                    <i class="fas fa-volume-down"></i>
+                </div>
+                <div class="bar-badge">
+                    <i class="far fa-circle"></i>
+                </div>
+                <hr width = "90px" size ="5" color="#3b73bb">
+                <div class="playbar-btn">
+                    <i class="fas fa-ellipsis-h"></i>
+                </div>
+            </div>
+        </div>
+    </nav>
+</body>
+</html>
